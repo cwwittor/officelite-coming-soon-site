@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Kumbh";
+  src: url("./assets/Kumbh_Sans/KumbhSans-VariableFont_YOPQ\,wght.ttf")
+    format("woff2-variations");
+  font-weight: 100 900;
+}
+
+:root {
+  --blue: #5175ff;
+  --light-blue: #829cff;
+  --black: #25293a;
+  --dark-grey: #333950;
+  --grey: #747b95;
+  --salmon: #f05b5b;
+
+  --kumbh: "Kumbh", sans-serif;
+
+  --regular: 400;
+  --medium: 500;
+  --semi-bold: 600;
+  --bolder: 700;
+}
+
+.kumbh {
+  font-family: var(--kumbh);
+}
