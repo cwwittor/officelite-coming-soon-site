@@ -25,6 +25,48 @@
   font-family: var(--kumbh);
 }
 
+.flex-header {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0 5.8rem 0;
+}
+
+.svg-width {
+  max-width: 100%;
+  height: auto;
+}
+
+.background-svg {
+  position: absolute;
+  top: -10rem;
+  left: -2.7rem;
+  width: 458px;
+  height: 458px;
+  background-image: url("./assets/home/bg-pattern-header.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.chart-svg {
+  position: relative;
+  width: 171px;
+  height: 192px;
+  background-image: url("./assets/home/illustration-charts.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flex-chart {
+  display: flex;
+  justify-content: center;
+}
+
+/* .top-section {
+  width: 100vw;
+  overflow: hidden;
+}  */
+
 /* Next to dos
 
 - Get base level page formatting
