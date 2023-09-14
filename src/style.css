@@ -15,6 +15,12 @@
 
   --kumbh: "Kumbh", sans-serif;
 
+  --header-mobile: 2.5rem;
+  --paragraph-mobile: 1rem;
+
+  --line-height-tall: 3rem;
+  --line-height-small: 1.625rem;
+
   --regular: 400;
   --medium: 500;
   --semi-bold: 600;
@@ -60,6 +66,24 @@
 .flex-chart {
   display: flex;
   justify-content: center;
+}
+
+.top-section-header {
+  color: var(--dark-grey);
+  font-size: var(--header-mobile);
+  font-weight: var(--bolder);
+  vertical-align: top;
+  line-height: var(--line-height-tall);
+  text-align: center;
+}
+
+.top-section-paragraph {
+  color: var(--grey);
+  font-size: var(--paragraph-mobile);
+  font-weight: var(--regular);
+  vertical-align: top;
+  line-height: var(--line-height-small);
+  text-align: center;
 }
 
 /* .top-section {
