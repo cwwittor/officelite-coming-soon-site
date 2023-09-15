@@ -19,9 +19,12 @@
 
   --kumbh: "Kumbh", sans-serif;
 
+  --cost-size: 3.5rem;
   --header-mobile: 2.5rem;
   --paragraph-mobile: 1rem;
+  --card-header: 1.25rem;
 
+  --line-height-taller: 4rem;
   --line-height-tall: 3rem;
   --line-height-small: 1.625rem;
 
@@ -154,7 +157,7 @@ body {
   color: var(--white);
 }
 
-.black {
+/* .black {
   color: var(--black);
 }
 
@@ -164,11 +167,44 @@ body {
 
 .grey {
   color: var(--grey);
+} */
+
+.dark-grey {
+  color: var(--dark-grey);
 }
 
 .card-section {
   max-width: 20.5rem;
   margin: 0 auto;
+}
+
+.card-features {
+  color: var(--grey);
+  font-weight: var(--regular);
+  line-height: var(--line-height-small);
+  vertical-align: top;
+  font-size: var(--paragraph-mobile);
+}
+
+.card-users {
+  font-weight: var(--regular);
+  line-height: var(--line-height-small);
+  vertical-align: top;
+  font-size: var(--paragraph-mobile);
+}
+
+.card-price {
+  font-weight: var(--bolder);
+  line-height: var(--line-height-taller);
+  font-size: var(--cost-size);
+  vertical-align: top;
+}
+
+.card-header {
+  font-weight: var(--bolder);
+  line-height: var(--line-height-small);
+  vertical-align: top;
+  font-size: var(--card-header);
 }
 
 .white-item-box {
@@ -178,6 +214,24 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+
+.blue-item-box {
+  background-color: var(--blue);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.item-box-patten {
+  width: 468px;
+  height: 468px;
+  overflow: hidden;
+  background-image: url("./assets/home/bg-pattern-pricing.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Next to dos
