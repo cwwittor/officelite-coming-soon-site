@@ -12,6 +12,8 @@
   --dark-grey: #333950;
   --grey: #747b95;
   --salmon: #f05b5b;
+  --white: #ffffff;
+  --off-white: #f2f2f2;
 
   --kumbh: "Kumbh", sans-serif;
 
@@ -29,6 +31,10 @@
 
 .kumbh {
   font-family: var(--kumbh);
+}
+
+body {
+  background-color: var(--off-white);
 }
 
 .flex-header {
@@ -86,10 +92,57 @@
   text-align: center;
 }
 
-/* .top-section {
-  width: 100vw;
-  overflow: hidden;
-}  */
+.top-section {
+  max-width: 20.5rem;
+  margin: 0 auto;
+}
+
+.button1 {
+  font-size: var(--paragraph-mobile);
+  line-height: var(--line-height-small);
+  text-align: left;
+  vertical-align: top;
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 1rem 2rem 1rem 2rem;
+  border-radius: 2rem;
+}
+
+.button-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.white {
+  color: var(--white);
+}
+
+.black {
+  color: var(--black);
+}
+
+.blue {
+  color: var(--blue);
+}
+
+.grey {
+  color: var(--grey);
+}
+
+.card-section {
+  max-width: 20.5rem;
+  margin: 0 auto;
+}
+
+.white-item-box {
+  background-color: var(--white);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
 
 /* Next to dos
 
