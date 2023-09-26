@@ -20,13 +20,15 @@ const months = [
   "December",
 ];
 
-function setDeadline() {
-  const d = new Date("2023-12-25 12:00:00");
-  // document.getElementById("deadlineDate").innerHTML = `${d
-  //   .getDate()
-  //   .format("DD MMM YYYY")} ${d.getMonth()} ${d.getFullYear()}`;
-  document.getElementById("deadlineDate").innerHTML = "25 Dec 2023";
-}
+// document.getElementById("deadline-date").innerHTML = "25 Dec 2023";
+
+// function setDeadline() {
+//   // const d = new Date("2023-12-25 12:00:00");
+//   // document.getElementById("deadlineDate").innerHTML = `${d
+//   //   .getDate()
+//   //   .format("DD MMM YYYY")} ${d.getMonth()} ${d.getFullYear()}`;
+//   document.getElementById("deadlineDate").innerHTML = "25 Dec 2023";
+// }
 
 function getDate() {
   const d = new Date("2023-12-25 12:00:00");
@@ -46,4 +48,5 @@ function getDate() {
 }
 
 //UNCOMMENT THIS TO MAKE TIME WORK
-// setInterval(getDate, 1000);
+setInterval(getDate, 1000);
+// this.setDeadline();
