@@ -83,6 +83,15 @@ body {
   justify-content: center;
 }
 
+.alt-top-section-header {
+  color: var(--dark-grey);
+  font-size: var(--header-mobile);
+  font-weight: var(--bolder);
+  vertical-align: top;
+  line-height: var(--line-height-tall);
+  text-align: center;
+}
+
 .top-section-header {
   color: var(--dark-grey);
   font-size: var(--header-mobile);
@@ -103,7 +112,7 @@ body {
 
 .top-section {
   max-width: 20.5rem;
-  margin: 0 auto;
+  margin: 0 auto 5rem;
 }
 
 .button1 {
@@ -257,6 +266,10 @@ body {
   background-color: var(--black);
 }
 
+.alt-bottom-section {
+  background-color: var(--white);
+}
+
 .flex-bottom-svg {
   display: flex;
   justify-content: center;
@@ -297,11 +310,27 @@ body {
   justify-content: space-around;
 }
 
+.alt-text-date-card {
+  background-color: rgba(81, 117, 255, 0.1);
+  text-align: center;
+  padding: 1.2rem;
+  border-radius: 0.25rem;
+}
+
 .text-date-card {
   background-color: var(--dark-grey);
   text-align: center;
   padding: 1.2rem;
   border-radius: 0.25rem;
+}
+
+.alt-number-text {
+  margin: 0;
+  font-size: var(--number-text);
+  font-weight: var(--semi-bold);
+  line-height: var(--line-height-tall);
+  color: var(--blue);
+  vertical-align: bottom;
 }
 
 .number-text {
@@ -313,6 +342,16 @@ body {
   vertical-align: bottom;
 }
 
+.alt-time-text {
+  margin: 0;
+  font-size: var(--time-text);
+  font-weight: var(--bolder);
+  line-height: var(--line-height-small);
+  color: var(--dark-grey);
+  opacity: 50%;
+  vertical-align: bottom;
+}
+
 .time-text {
   margin: 0;
   font-size: var(--time-text);
@@ -321,6 +360,11 @@ body {
   color: var(--white);
   opacity: 50%;
   vertical-align: bottom;
+}
+
+.input-text {
+  border-width: 0 0 1px 0;
+  border-style: none none solid none;
 }
 
 /* Next to dos
