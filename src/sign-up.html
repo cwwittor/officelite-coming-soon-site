@@ -15,7 +15,7 @@
 
     <title>Frontend Mentor | Officelite coming soon site</title>
   </head>
-  <body class="kumbh">
+  <body class="kumbh sign-up">
     <header class="flex-header">
       <div class="background-svg"></div>
       <svg
@@ -60,9 +60,9 @@
       </div>
     </section>
     <section class="alt-bottom-section">
-      <div class="flex-bottom-svg"><div class="bottom-svg"></div></div>
+      <!-- <div class="flex-bottom-svg"><div class="bottom-svg"></div></div> -->
       <!-- If you're choosing to make this date dynamic, set it to 30 days in the future from the moment the visitor views the page -->
-      <div class="date-header">
+      <div class="alt-date-header">
         <span class="dark-grey">COMING</span>
         <span id="deadlineDate" class="blue-date">25 Dec 2023</span>
       </div>
@@ -88,15 +88,21 @@
       </div>
     </section>
     <section>
-      <div>
-        Name Email Address Basic Pack Free Basic Pack Free Pro Pack $9.99
-        Ultimate Pack $19.99 Phone Number Company Get on the list
-      </div>
-      <div>
-        <label>Name</label>
+      <div class="flex-list">
         <input class="input-text" type="text" placeholder="Name" />
-        <label>Email</label> <input /> <label>Address</label> <input />
+        <input class="input-text" type="text" placeholder="Email Address" />
+        <select name="Basic Pack" class="dropdown-text">
+          <option value="volvo">
+            <span class="black">Basic Pack</span> Free
+          </option>
+          <option value="pro"><span>Pro Pack</span> $9.99</option>
+          <option value="ultimate"><span>Ultimate Pack</span> $19.99</option>
+        </select>
+        <input class="input-text" type="text" placeholder="Phone Number" />
+        <input class="input-text" type="text" placeholder="Company" />
+        <a class="button4">Get on the list</a>
       </div>
     </section>
+    <div class="blue-bottom"></div>
   </body>
 </html>
