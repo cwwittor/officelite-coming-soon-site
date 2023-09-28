@@ -43,6 +43,7 @@
 
 body {
   background-color: var(--fill-white);
+  margin: 0;
 }
 
 .flex-header {
@@ -149,6 +150,20 @@ body {
   border-radius: 2rem;
 }
 
+.button4 {
+  font-size: var(--paragraph-mobile);
+  line-height: var(--line-height-small);
+  text-align: center;
+  vertical-align: top;
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 1rem 3rem 1rem 3rem;
+  border-radius: 2rem;
+  margin-top: 2.5rem;
+  font-weight: var(--bolder);
+  align-self: center;
+}
+
 .button1:hover {
   background-color: var(--light-blue);
 }
@@ -161,6 +176,10 @@ body {
   color: var(--light-blue);
 }
 
+/* .button4:hover {
+  background-color: var(--light-blue);
+} */
+
 .button-container {
   margin-top: 2rem;
   display: flex;
@@ -171,18 +190,18 @@ body {
   color: var(--white);
 }
 
-/* .black {
+.black {
   color: var(--black);
 }
-
+/*
 .blue {
   color: var(--blue);
 }
 
 .grey {
   color: var(--grey);
-} */
-
+}
+*/
 .dark-grey {
   color: var(--dark-grey);
 }
@@ -286,6 +305,19 @@ body {
   background-size: cover;
 }
 
+.alt-date-header {
+  margin-top: 5rem;
+  font-size: var(--paragraph-mobile);
+  line-height: var(--line-height-tall);
+  letter-spacing: 5px;
+  vertical-align: top;
+  font-weight: var(--bolder);
+  text-align: center;
+  margin: 4rem auto 0;
+  width: 100%;
+  background-color: var(--off-white);
+}
+
 .date-header {
   font-size: var(--paragraph-mobile);
   line-height: var(--line-height-tall);
@@ -295,6 +327,7 @@ body {
   text-align: center;
   margin: 0 auto;
   width: 100%;
+  background-color: var(--off-white);
 }
 
 .blue-date {
@@ -306,8 +339,10 @@ body {
 }
 
 .flex-time {
+  background-color: var(--off-white);
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .alt-text-date-card {
@@ -362,9 +397,49 @@ body {
   vertical-align: bottom;
 }
 
+.dropdown-text {
+  border-width: 0 0 1px 0;
+  padding: 1.25rem 1rem 1.25rem 1rem;
+  border-style: none none solid none;
+  border-color: var(--grey);
+  opacity: 50%;
+}
+
 .input-text {
   border-width: 0 0 1px 0;
+  padding: 1.25rem 1rem 1.25rem 1rem;
   border-style: none none solid none;
+  border-color: var(--grey);
+  opacity: 50%;
+}
+
+.flex-list {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  padding: 1rem;
+  margin: 4rem 1rem 1rem 1rem;
+  border-radius: 1rem;
+}
+
+.sign-up {
+  background-color: var(--off-white);
+  position: relative;
+}
+
+.blue-bottom {
+  position: absolute;
+  /* bottom: 0; */
+  bottom: -100px;
+  left: 0;
+  width: 100%;
+  height: 320px;
+  z-index: -1;
+  background-color: var(--black);
+  background-image: url("./assets/home/bg-pattern-footer.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* filter: brightness(2); */
 }
 
 /* Next to dos
