@@ -476,8 +476,22 @@ body {
     font-size: var(--cost-size);
   }
 
+  .number-text {
+    font-size: var(--cost-size);
+  }
+
   .alt-time-text {
     font-size: var(--paragraph-mobile);
+  }
+
+  .time-text {
+    font-size: var(--paragraph-mobile);
+  }
+
+  .text-date-card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
   }
 
   .alt-text-date-card {
@@ -486,8 +500,39 @@ body {
     gap: 1rem;
   }
 
-  .background-svg {
+  .alt-background-svg {
     display: none;
+  }
+
+  .top-section {
+    max-width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Adjust column widths as needed */
+    grid-gap: 10px; /* Adjust gap size as needed */
+  }
+
+  .text-heading {
+    grid-column: 2 / span 1; /* Place in second column and span 1 column */
+  }
+
+  .flex-chart {
+    grid-column: 1 / span 1; /* Place in first column and span 1 column */
+    align-items: center;
+  }
+
+  .chart-svg {
+    width: 281px;
+    height: 314px;
+  }
+
+  .white-item-box {
+    display: grid;
+    max-width: 689px;
+    grid-template-columns: 1fr 1fr; /* Creates two equal columns */
+    grid-gap: 10px;
+  }
+
+  .item-cost-side {
   }
 }
 
