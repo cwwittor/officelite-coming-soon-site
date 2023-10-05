@@ -44,6 +44,7 @@
 body {
   background-color: var(--fill-white);
   margin: 0;
+  width: 100%;
 }
 
 .flex-header {
@@ -274,7 +275,7 @@ body {
 .item-box-pattern {
   width: 100%;
   height: 468px;
-  overflow: hidden;
+  overflow: auto;
   position: absolute;
   background-image: url("./assets/home/bg-pattern-pricing.svg");
   background-repeat: no-repeat;
@@ -532,7 +533,33 @@ body {
     grid-gap: 10px;
   }
 
+  .blue-item-box {
+    position: relative;
+    background-color: var(--blue);
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 10px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .card-section {
+    max-width: 43.063rem;
+  }
+
   .item-cost-side {
+  }
+
+  .item-box-pattern {
+    max-width: 100%;
+    width: 880px;
+    height: 880px;
+    overflow: hidden;
+    position: absolute;
+    background-image: url("./assets/home/bg-pattern-pricing.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
