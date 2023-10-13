@@ -621,6 +621,15 @@ body {
 }
 
 @media (min-width: 1440px) {
+  .top-section {
+    max-width: 1110px;
+  }
+
+  .flex-header {
+    max-width: 1110px;
+    margin: 5rem auto;
+  }
+
   .blue-item-box {
     background-color: var(--blue);
     border-radius: 1rem;
@@ -695,10 +704,6 @@ body {
     justify-content: start;
   }
 
-  .flex-header {
-    margin-left: 8rem;
-  }
-
   .top-section-header {
     text-align: left;
   }
@@ -731,6 +736,14 @@ body {
 
   .bottom-svg {
     height: 603px;
+  }
+
+  .desktop-bottom-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1110px;
+    margin: 0 auto;
   }
 }
 
